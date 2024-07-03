@@ -1,7 +1,7 @@
 immutable_var = (0, 2, 'Бубас', False)
 print('Immutable tuple:', immutable_var)
 #immutable_var[1] = 'Кукусик'
-#print(immutable_var) - выдаёт ошибку, так как переменной immutable_var присвоен кортеж - неизменяемый объект, то изменить его нельзя
+#print(immutable_var) - PyCharm выдаёт ошибку, так как переменной immutable_var присвоен кортеж - неизменяемый объект, то изменить его нельзя
 #print(type(immutable_var)) <class 'tuple'>
 mutable_list = [0, 2, 'Бубас', True]
 print('Mutable list:', mutable_list)
